@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "HMC5883L.kicad_sch",
+        "reliability": "20%"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "VL53L0X.kicad_sch",
+        "reliability": "20%"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "AMS1117_3V3.kicad_sch",
+        "reliability": "20%"
+    }
+}

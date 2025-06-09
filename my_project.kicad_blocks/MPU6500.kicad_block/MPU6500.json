@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "MPU6500.kicad_sch",
+        "reliability": "20%"
+    }
+}

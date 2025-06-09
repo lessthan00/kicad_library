@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "220VAC_to_LED_DC_power_supply_no_senser.kicad_sch",
+        "reliability": "20%"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "current_to_voltage_loop.kicad_sch",
+        "reliability": "20%"
+    }
+}

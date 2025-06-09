@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "HT7550-1.kicad_sch",
+        "reliability": "20%"
+    }
+}

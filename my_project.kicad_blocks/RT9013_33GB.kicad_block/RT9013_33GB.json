@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "RT9013_33GB.kicad_sch",
+        "reliability": "20%"
+    }
+}
