@@ -1,0 +1,5 @@
+{
+"description": "An ESP32 module, loosely based on the ESP32 DevKitC, designed for ease of use and maximising the use of JLCPCB's basic/preferred parts. This module provides all the necessary electronics for programming and running an ESP32 with a USB interface.\n\nI made some changes to make the description more concise and informative, while also adding some relevant keywords to help with search and categorization. Let me know if you'd like me to make any further adjustments!",
+"keywords": "ESP32, Wi-Fi, Bluetooth, Microcontroller, Development Board, USB, JLCPCB",
+"fields": {}
+}

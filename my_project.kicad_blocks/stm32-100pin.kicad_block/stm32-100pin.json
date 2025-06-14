@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "stm32-100pin.kicad_sch",
+        "reliability": "20%"
+    }
+}
