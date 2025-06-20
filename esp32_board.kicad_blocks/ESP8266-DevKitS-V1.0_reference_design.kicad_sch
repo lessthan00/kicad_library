@@ -1486,256 +1486,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:BAT760-7"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT760-7"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, Generic Symbol, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky generic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT760-7_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.762) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT760-7_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy -0.381 1.397) (xy 0 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0) (xy 2.159 0.381) (xy 1.778 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT760-7_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BAT760-7_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Library:LESD5D5.0CT1G"
 			(pin_numbers
 				(hide yes)
@@ -2268,6 +2018,256 @@
 					(at 2.54 2.54 270)
 					(length 0)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Diode_Schottky_AKL:BAT60B"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT60B"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/d08c2f1873cb72c788de84de5d92abcf/BAT60BE6327HTSA1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-323 Schottky diode, 10V, 3A, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode schottky BAT60B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT60B_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.762) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT60B_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy -0.381 1.397) (xy 0 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy 2.159 0.381) (xy 1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT60B_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BAT60B_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4763,7 +4763,7 @@
 		)
 		(uuid "cfc00dc2-26b4-4c48-bbd8-043ff7f5fc8f")
 	)
-	(text "Micro USB Type B Female  5 Pin DIP	USB_5P	Micro USB\nCP2102-GM	CP2102_QFN_28P	USB-TO-UART,3.3V/500mA on-chip voltage regulator,1024B EEPROM,1Mbits,3.0~3.6V,-40~+85°C\nAMS1117-3.3	SOT-223	LDO,5v to 3.3v,fixed output,1A,SOT-223\nESP-WROOM-02D/U	ESP-WROOM-02	Espressif WiFi Module，ESP-WROOM-02U,IPEX Antenna\nESP-WROOM-02D/U ESP-WROOM-02    Espressif WiFi Module，ESP-WROOM-02D,PCB Antenna\nCHS-02B/Copal	DipSwtich_SMT_2x2_1P27	2bit dial switch，Pitch1.27mm\n"
+	(text "Micro USB Type B Female  5 Pin DIP	USB_5P	Micro USB\nCP2102N-A02	CP2102_QFN_28P	USB-TO-UART,3.3V/500mA on-chip voltage regulator,1024B EEPROM,1Mbits,3.0~3.6V,-40~+85°C\nAMS1117-3.3	SOT-223	LDO,5v to 3.3v,fixed output,1A,SOT-223\nWROOM-02-SPR-17P5\nCHS-02B/Copal	DipSwtich_SMT_2x2_1P27	2bit dial switch，Pitch1.27mm\n"
 		(exclude_from_sim no)
 		(at 15.748 19.558 0)
 		(effects
@@ -6467,7 +6467,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 60.96) (xy 203.2 60.96)
+			(xy 203.2 60.96) (xy 198.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6687,6 +6687,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 60.96) (xy 222.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b769cb84-b7b8-40d3-aea7-4b68dd633594")
+	)
+	(wire
+		(pts
 			(xy 114.3 146.05) (xy 139.7 146.05)
 		)
 		(stroke
@@ -6694,16 +6704,6 @@
 			(type default)
 		)
 		(uuid "b85138ae-f0c6-4179-a9da-80de4a603571")
-	)
-	(wire
-		(pts
-			(xy 152.4 60.96) (xy 158.75 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7b0be0-9d81-4265-98aa-45b58629ef27")
 	)
 	(wire
 		(pts
@@ -6724,16 +6724,6 @@
 			(type default)
 		)
 		(uuid "c0990ec7-d338-47fd-acdd-16f298f766c6")
-	)
-	(wire
-		(pts
-			(xy 203.2 60.96) (xy 213.614 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c130b36f-c3da-4f61-8385-1239f9341d7c")
 	)
 	(wire
 		(pts
@@ -6994,6 +6984,16 @@
 			(type default)
 		)
 		(uuid "d5f0e4a5-39a9-4a95-a1d4-2513afe78039")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 167.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da16a6bb-048a-427b-a32a-3c14f9cb6152")
 	)
 	(wire
 		(pts
@@ -7636,7 +7636,7 @@
 		(uuid "9fc2d5fc-e7b6-4e5a-a1ed-d3c9c5344aa0")
 	)
 	(label "EN"
-		(at 208.534 60.96 0)
+		(at 217.17 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7656,7 +7656,7 @@
 		(uuid "afd8e203-a06f-47b9-8568-3d6c68fd16b9")
 	)
 	(label "IO0"
-		(at 156.21 60.96 0)
+		(at 165.1 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8999,16 +8999,14 @@
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_1206")
 		(at 364.49 176.53 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "388e4be5-8a35-4316-877e-c3230e0e18f9")
 		(property "Reference" "R7"
-			(at 364.49 170.18 90)
+			(at 364.49 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9014,7 @@
 			)
 		)
 		(property "Value" "0R(1%)"
-			(at 364.49 172.72 90)
+			(at 364.49 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,7 +9697,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "63edf53b-1422-43ca-80d8-156e71351cb8")
 		(property "Reference" "C3"
@@ -9710,7 +9708,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF/50V(10%)"
+		(property "Value" "0.1uF/50V(10%)(NC)"
 			(at 139.7 68.58 90)
 			(effects
 				(font
@@ -10177,6 +10175,74 @@
 			(project ""
 				(path "/5a3358d3-68a9-457c-9280-5268343b5a1e"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Schottky_AKL:BAT60B")
+		(at 334.01 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "737d6e66-228d-4738-aa86-dd3448350168")
+		(property "Reference" "D1"
+			(at 334.3275 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT60B"
+			(at 334.3275 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323"
+			(at 334.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d08c2f1873cb72c788de84de5d92abcf/BAT60BE6327HTSA1.pdf"
+			(at 334.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-323 Schottky diode, 10V, 3A, Alternate KiCAD Library"
+			(at 334.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73e33a06-0316-4cd8-ac5e-a740f9c6ade4")
+		)
+		(pin "1"
+			(uuid "3c5e0696-486d-4242-b9d3-80e61edf0aeb")
+		)
+		(instances
+			(project ""
+				(path "/5a3358d3-68a9-457c-9280-5268343b5a1e"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12058,74 +12124,6 @@
 			(project "ESP8266-DevKitC-V1.0_reference_design"
 				(path "/5a3358d3-68a9-457c-9280-5268343b5a1e"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:BAT760-7")
-		(at 334.01 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cee5e632-4e80-4f0d-9e69-620c3566818c")
-		(property "Reference" "D?"
-			(at 334.3275 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT760-7"
-			(at 334.3275 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 334.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 334.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, Generic Symbol, Alternate KiCAD Library"
-			(at 334.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c38c837c-33ae-4dd5-af85-27c79c5d2602")
-		)
-		(pin "2"
-			(uuid "0f903037-94da-4aaf-b4be-81d4977f72d6")
-		)
-		(instances
-			(project "ESP8266-DevKitC-V1.0_reference_design"
-				(path "/5a3358d3-68a9-457c-9280-5268343b5a1e"
-					(reference "D?")
 					(unit 1)
 				)
 			)
