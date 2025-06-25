@@ -7935,16 +7935,6 @@
 		)
 		(uuid "406155d7-9084-4878-897e-d32cbbdb33aa")
 	)
-	(label "VBUS"
-		(at 294.64 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4620cdb0-9f55-4738-8399-30803bc87a36")
-	)
 	(label "IO13"
 		(at 111.76 142.24 0)
 		(effects

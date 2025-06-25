@@ -5213,16 +5213,6 @@
 		)
 		(uuid "c7088b84-6226-4ce1-9481-c120c2e4672d")
 	)
-	(label "VBUS"
-		(at 295.91 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9bdd230-4493-44c6-9d0f-7edb23586193")
-	)
 	(label "U0RXD"
 		(at 373.38 143.51 0)
 		(effects

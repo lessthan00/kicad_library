@@ -7725,16 +7725,6 @@
 		)
 		(uuid "d76e5786-b038-4b74-9a48-9a69fcd72fc3")
 	)
-	(label "VBUS"
-		(at 297.18 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9bdd230-4493-44c6-9d0f-7edb23586193")
-	)
 	(label "U0RXD"
 		(at 374.65 173.99 0)
 		(effects

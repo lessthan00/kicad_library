@@ -9170,16 +9170,6 @@
 		)
 		(uuid "da25813b-ef08-43eb-beaf-af20462af5f4")
 	)
-	(label "VBUS"
-		(at 312.42 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dea01443-1e6e-4f5f-82cc-f822852b5ec2")
-	)
 	(label "IO22"
 		(at 114.3 162.56 0)
 		(effects
