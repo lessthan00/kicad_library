@@ -3408,6 +3408,19 @@
 		)
 		(uuid "65378924-8211-47ff-8c8a-78b996b5f387")
 	)
+	(text "天线数据:\n禁止区域5.7mm * 13.2mm\n四层,顶层:\n线宽0.5mm\nA->B(90,4.6mm)\nA->F(270,0.25mm)\nB->C(0,1.5mm)\nC->D(270,4.6mm)\nD->G(270,0.25mm)\nB->E(0,3.5mm)\n\nE->H(270,2.9mm)\nH->I(0,2.1mm)\nI->J(90,2.9mm)\nJ->K(0,2.1mm)\n\nK->L(270,2.9mm)\nL->M(0,2.1mm)\nM->N(90,2.9mm)\nN->P(0,2.1mm)\n\nP->Q(270,3.9mm)\nQ->O(270,0.25mm)\n\n底层重复:\nE->H(270,2.9mm)\nH->I(0,2.1mm)\nI->J(90,2.9mm)\nJ->K(0,2.1mm)\n\nK->L(270,2.9mm)\nL->M(0,2.1mm)\nM->N(90,2.9mm)\nN->P(0,2.1mm)\n\nP->Q(270,3.9mm)\nQ->O(270,0.25mm)\n\nE->Y(90,0.25mm)\n\n后面的拐点都有过孔联通,\n12/18mil 需要电镀\n\n"
+		(exclude_from_sim yes)
+		(at -48.26 111.76 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6febb941-f330-4295-af64-c5173222e45e")
+	)
 	(text "50 ohm Impedance Control"
 		(exclude_from_sim no)
 		(at 128.27 96.52 0)
@@ -3445,7 +3458,7 @@
 		)
 		(uuid "b5172077-eed7-4d88-a269-a3b4be1191d4")
 	)
-	(text "走线5mil,覆铜安全间距5mil,走线间隙5mil.电源线20mil\n过孔10mil/16mil 10mil/18mil 10mil/30mil\n使用10mil/16mil\n天线12.6mil宽,覆铜安全间距5mil\n"
+	(text "走线5mil,覆铜安全间距5mil,走线间隙5mil.电源线24mil\n过孔10mil/16mil 10mil/18mil 10mil/30mil\n使用10mil/16mil\n天线12.6mil宽,覆铜安全间距5mil\n四层板,天线要挖空"
 		(exclude_from_sim yes)
 		(at 15.494 69.088 0)
 		(effects

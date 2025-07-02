@@ -2649,7 +2649,7 @@
 		)
 		(uuid "b5172077-eed7-4d88-a269-a3b4be1191d4")
 	)
-	(text "走线5mil,覆铜安全间距5mil,走线间隙5mil.电源线20mil\n过孔10mil/16mil 10mil/18mil 10mil/30mil\n使用10mil/16mil\n天线12.6mil宽,覆铜安全间距5mil\n"
+	(text "走线5mil,覆铜安全间距5mil,走线间隙5mil.电源线20mil\n过孔10mil/16mil 10mil/18mil 10mil/30mil\n使用10mil/16mil\n天线12.6mil宽,覆铜安全间距5mil\n四层板,IPEX座子下面需要挖空"
 		(exclude_from_sim yes)
 		(at 15.494 69.088 0)
 		(effects
