@@ -4163,7 +4163,7 @@
 		)
 		(uuid "853b8401-426b-4cbc-9bef-23a436a41e07")
 	)
-	(text "ESP32-S2-MINI-1(pin-out)"
+	(text "ESP32-S2-MINI-1U(pin-out)"
 		(exclude_from_sim yes)
 		(at 155.448 157.988 0)
 		(effects
@@ -4176,9 +4176,9 @@
 		)
 		(uuid "aee00b40-15de-46ec-bda3-7cf05ef8b97d")
 	)
-	(text "ESP32-S2FH4 / ESP32-S2FN4R2, Wi-Fi + MCU + 4MB FLASH + 2MB PSRAM (Optional),\nQFN56_0P4_7,Wi-Fi + MCU + Flash/PSRAM\n\n40 MHz, ± 10 ppm, 15 pF, 100 uW,XTAL3225\n\nShield Box Size: 13.55 * 14 * 1.6 mm, T = 0.15 mm\n\nESP32-S2-MINI-1 V1.1, 15.4 * 20 * 0.8 mm, Halogen-free, \nMatte black for Solder mask and white for silkscreen, immersion gold and 50 Ω impedance control."
+	(text "USS RF Receptacle Connector, Generation III, Withstand Voltage 200 VAC 1Min, Contact Resistance. 20 mΩ max, Insulation Resistance. 500MΩ max,IPEX_4P\n2.0 nH (± 0.1 nH), 450 mA\nESP32-S2FH4 / ESP32-S2FN4R2, Wi-Fi + MCU + 4MB FLASH + 2MB PSRAM (Optional),QFN56_0P4_7,Wi-Fi + MCU + Flash/PSRAM\n40 MHz, ± 10 ppm, 15 pF, 100 uW,XTAL3225\nShield Box Size: 13.55 * 14 * 1.6 mm, T = 0.15 mm\nESP32-S2-MINI-1U V1.1, 15.4 * 15.4 * 0.8 mm, Halogen-free, Matte black for Solder mask and white for silkscreen, immersion gold and 50 Ω impedance control."
 		(exclude_from_sim yes)
-		(at 18.796 28.956 0)
+		(at 17.272 23.622 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -4190,7 +4190,7 @@
 	)
 	(text "走线5mil,覆铜安全间距5mil,走线间隙5mil.电源线20mil\n过孔10mil/16mil 10mil/18mil 10mil/30mil\n使用10mil/16mil\n天线12.6mil宽,覆铜安全间距5mil\n四层板,厚度0.8mm"
 		(exclude_from_sim yes)
-		(at 191.516 20.574 0)
+		(at 17.78 41.148 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -4200,9 +4200,9 @@
 		)
 		(uuid "c999d7f7-5a87-4c9f-9007-52f75bb2e47e")
 	)
-	(text "The values of C1 and C4 vary with\nthe selection of the crystal.\nThe value of R4 varies with the actual\nPCB board."
+	(text "The values of C1 and C4 vary with\nthe selection of the crystal.\nThe value of R4 varies with the actual\nPCB board.\n"
 		(exclude_from_sim yes)
-		(at 227.33 157.734 0)
+		(at 231.14 156.972 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6126,6 +6126,16 @@
 		)
 		(uuid "7ce4fd01-05ad-4ce2-85ea-52e808c48b34")
 	)
+	(label "U0RXD"
+		(at 217.17 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f2c4a8b-a3d1-49c5-82f1-b8eddc9f0a2e")
+	)
 	(label "GPIO17"
 		(at 110.49 157.48 0)
 		(effects
@@ -6394,7 +6404,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bfb264d0-a758-47a7-973c-41c2f5c1f046")
+		(uuid "bfcf95ff-ae71-4d7d-9a63-d4ad3aac4e57")
 	)
 	(label "GPIO46"
 		(at 22.86 142.24 0)
@@ -6646,16 +6656,6 @@
 		)
 		(uuid "f3573a7c-d7f4-48da-99e7-92a38afc2522")
 	)
-	(label "U0RXD"
-		(at 217.17 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6d67960-bdce-4b34-8633-992b48cd2a3d")
-	)
 	(label "GPIO30"
 		(at 22.86 175.26 0)
 		(effects
@@ -6777,7 +6777,7 @@
 		(fields_autoplaced yes)
 		(uuid "00ffc6c8-f611-4705-9acf-e19ef832a961")
 		(property "Reference" "U2"
-			(at 183.7533 59.69 0)
+			(at 183.7533 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,8 +6785,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S2-MINI-1"
-			(at 183.7533 62.23 0)
+		(property "Value" "ESP32-S2-MINI-1U"
+			(at 183.7533 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +7470,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PCB_ANT"
+		(property "Value" "IPEX"
 			(at 242.57 88.2649 0)
 			(effects
 				(font
