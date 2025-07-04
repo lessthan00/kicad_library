@@ -2641,7 +2641,7 @@
 		(at 14.986 35.56 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.905 1.905)
 				(thickness 0.508)
 				(bold yes)
 			)
@@ -2654,7 +2654,7 @@
 		(at 15.494 69.088 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.905 1.905)
 				(thickness 0.508)
 				(bold yes)
 			)
@@ -2763,6 +2763,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1685218-e01b-4c5c-a4b4-8c55f2b78e7f")
+	)
+	(junction
+		(at 165.1 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c51e74c0-a367-4684-a868-cd3dac702142")
 	)
 	(junction
 		(at 25.4 100.33)
@@ -4183,6 +4189,72 @@
 			(project "ESP32-H2-MINI-1U_V1.1_Reference_Design"
 				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d16c3c8-76d3-4e2c-a4b5-3fdc7fe3f325")
+		(property "Reference" "#PWR015"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e74f07f-9ee8-4725-8c23-efb273a3f633")
+		)
+		(instances
+			(project "ESP32-H2-MINI-1U_V1.1_Reference_Design"
+				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

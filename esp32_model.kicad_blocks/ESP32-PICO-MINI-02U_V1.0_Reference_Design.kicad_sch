@@ -3384,7 +3384,7 @@
 	)
 	(text "The values of C11, L2 and C12\nvary with the actual PCB board."
 		(exclude_from_sim yes)
-		(at 121.92 101.092 0)
+		(at 121.92 102.362 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3436,7 +3436,7 @@
 		(at 14.986 35.56 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.905 1.905)
 				(thickness 0.508)
 				(bold yes)
 			)
@@ -3449,7 +3449,7 @@
 		(at 15.494 69.088 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.905 1.905)
 				(thickness 0.508)
 				(bold yes)
 			)
@@ -3522,6 +3522,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d685e900-a03d-452a-a730-2cf250c2f209")
+	)
+	(junction
+		(at 121.92 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f48e7488-ec6b-4739-8c1e-8843b0410832")
 	)
 	(no_connect
 		(at 119.38 175.26)
@@ -5691,6 +5697,72 @@
 			(project "ESP32-H2-MINI-1U_V1.1_Reference_Design"
 				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
 					(reference "AE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bf2abe2-3ec2-4f9c-8cca-ab79fa33c0d5")
+		(property "Reference" "#PWR01"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17b836bf-4c70-4c44-87c6-ac1b5de4decb")
+		)
+		(instances
+			(project "ESP32-PICO-MINI-02U_V1.0_Reference_Design"
+				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
