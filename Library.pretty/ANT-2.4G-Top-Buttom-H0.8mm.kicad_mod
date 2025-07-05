@@ -1,8 +1,10 @@
-(footprint "MINI-ANT-TYPED-H"
+(footprint "ANT-2.4G-Top-Buttom-H0.8mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "2.4G蓝牙天线,需要板厚0.8mm")
+	(tags "2.4G PCB ANT")
 	(property "Reference" "REF**"
 		(at -8.785 0 90)
 		(layer "F.SilkS")
@@ -14,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MINI-ANT-TYPED-H"
+	(property "Value" "ANT-2.4G-Top-Buttom-H0.8mm"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "74b1b908-7e0d-40df-b2f4-408aade008e9")
