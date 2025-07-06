@@ -4014,6 +4014,12 @@
 		(uuid "349ecdf7-3b35-4b76-b9cb-e0116a09e33b")
 	)
 	(junction
+		(at 355.6 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34fefd39-27a4-4a96-bc55-0217140fa8f8")
+	)
+	(junction
 		(at 340.36 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4102,6 +4108,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9ae0920-f1a9-44a5-b764-c8a1d66d8bdf")
+	)
+	(junction
+		(at 353.06 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbe1cd44-9c27-48bb-9387-620ec25d16b9")
 	)
 	(junction
 		(at 81.28 144.78)
@@ -4339,6 +4351,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 167.64) (xy 365.76 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b5f690-bcdd-4020-9c0a-bb2ce458e843")
+	)
+	(wire
+		(pts
 			(xy 383.54 73.66) (xy 393.7 73.66)
 		)
 		(stroke
@@ -4406,6 +4428,16 @@
 			(type default)
 		)
 		(uuid "2e0f8c6b-8224-40bb-b159-f6681ac62c3b")
+	)
+	(wire
+		(pts
+			(xy 353.06 166.37) (xy 353.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebf1f00-924a-4d79-b1fd-85262a53e9f8")
 	)
 	(wire
 		(pts
@@ -5039,6 +5071,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 166.37) (xy 355.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9982b9e3-9101-4815-a910-5e3682ffd39d")
+	)
+	(wire
+		(pts
 			(xy 383.54 40.64) (xy 393.7 40.64)
 		)
 		(stroke
@@ -5129,6 +5171,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 167.64) (xy 355.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c34941-b8c9-49a8-8054-08e6186c7b0d")
+	)
+	(wire
+		(pts
 			(xy 281.94 99.06) (xy 292.1 99.06)
 		)
 		(stroke
@@ -5209,7 +5261,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 167.64) (xy 365.76 167.64)
+			(xy 340.36 167.64) (xy 353.06 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6912,12 +6964,11 @@
 			)
 		)
 		(property "Value" "VDD33"
-			(at 340.36 26.6699 0)
+			(at 337.82 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7569,7 +7620,7 @@
 		(fields_autoplaced yes)
 		(uuid "48bc9d96-96eb-4945-95fb-dcf42313a3f6")
 		(property "Reference" "R3"
-			(at 173.99 245.11 90)
+			(at 173.99 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +7628,7 @@
 			)
 		)
 		(property "Value" "10K(NC)"
-			(at 173.99 247.65 90)
+			(at 173.99 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +9641,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0852989-da35-46b8-a135-f4642d8c10e3")
 		(property "Reference" "U2"
-			(at 339.9633 109.22 0)
+			(at 339.9633 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9650,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 339.9633 111.76 0)
+			(at 339.9633 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,21 +10187,21 @@
 		(fields_autoplaced yes)
 		(uuid "edd537d0-bad2-4a38-a446-168357588c19")
 		(property "Reference" "C7"
-			(at 146.05 162.5599 0)
+			(at 153.67 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10nF"
-			(at 146.05 165.0999 0)
+			(at 153.67 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"

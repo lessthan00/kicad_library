@@ -4030,6 +4030,12 @@
 		(uuid "233d969c-8afe-47b4-9b6e-248390766c33")
 	)
 	(junction
+		(at 152.4 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27d3e447-909c-49fc-9f7d-2a5136e247b0")
+	)
+	(junction
 		(at 58.42 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4124,6 +4130,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1131353-3606-4d56-9606-63cf5b069e6d")
+	)
+	(junction
+		(at 149.86 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4b0519b-5164-4342-b904-96874503a7f2")
 	)
 	(junction
 		(at 76.2 246.38)
@@ -4549,6 +4561,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 256.54) (xy 152.4 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eed56e1-d496-41d4-b3d0-533450b5f251")
+	)
+	(wire
+		(pts
 			(xy 210.82 259.08) (xy 223.52 259.08)
 		)
 		(stroke
@@ -4566,6 +4588,16 @@
 			(type default)
 		)
 		(uuid "324a0336-83a7-49f7-a5bb-540d1dcd02d4")
+	)
+	(wire
+		(pts
+			(xy 152.4 256.54) (xy 162.56 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b22ecc-6f1e-4339-8155-95e04bf79801")
 	)
 	(wire
 		(pts
@@ -5369,7 +5401,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 256.54) (xy 162.56 256.54)
+			(xy 137.16 256.54) (xy 149.86 256.54)
 		)
 		(stroke
 			(width 0)
@@ -5579,6 +5611,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 255.27) (xy 152.4 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b69c95-e117-45f8-a21f-849ae720044e")
+	)
+	(wire
+		(pts
 			(xy 386.08 203.2) (xy 396.24 203.2)
 		)
 		(stroke
@@ -5776,6 +5818,16 @@
 			(type default)
 		)
 		(uuid "fae1c23d-4ea1-435c-b468-6578bb50985b")
+	)
+	(wire
+		(pts
+			(xy 149.86 255.27) (xy 149.86 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1028c6-167b-451f-a0a3-47412619e032")
 	)
 	(label "GPIO37"
 		(at 124.46 198.12 0)
@@ -8418,12 +8470,11 @@
 			)
 		)
 		(property "Value" "VDD33"
-			(at 342.9 143.5099 0)
+			(at 340.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8864,7 +8915,7 @@
 		(fields_autoplaced yes)
 		(uuid "8520c4f1-4907-499e-9d0f-f4b1aa299a29")
 		(property "Reference" "R6"
-			(at 146.05 207.01 90)
+			(at 146.05 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,7 +8923,7 @@
 			)
 		)
 		(property "Value" "10K(NC)"
-			(at 146.05 209.55 90)
+			(at 146.05 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)

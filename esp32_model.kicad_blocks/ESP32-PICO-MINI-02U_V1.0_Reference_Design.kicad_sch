@@ -5252,7 +5252,7 @@
 		(fields_autoplaced yes)
 		(uuid "2df774a4-2859-4cc4-82b6-0f17c374cc96")
 		(property "Reference" "U1"
-			(at 230.7433 93.98 0)
+			(at 230.7433 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5261,7 @@
 			)
 		)
 		(property "Value" "ESP32-PICO-MINI-02"
-			(at 230.7433 96.52 0)
+			(at 230.7433 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,11 +6449,12 @@
 			)
 		)
 		(property "Value" "VDD33"
-			(at 228.6 91.44 0)
+			(at 231.14 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

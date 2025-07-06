@@ -207,262 +207,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND24"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND24"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND24_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:ESD9B5.0ST5G"
 			(pin_numbers
 				(hide yes)
@@ -1092,6 +836,231 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Crystal_AKL:SMD3225-4"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD3225-4"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Quartz crystal, 4 terminals, 3.2mm x 2.5mm, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator crystal shielded smd 3225"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD3225-4_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 1.905 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GND"
+					(at 0 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "SMD3225-4_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -8.89 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2984,18 +2953,6 @@
 		)
 		(uuid "8942def2-847c-4fe2-9c33-0bdaba11ea0c")
 	)
-	(text "The values of C1 and C2 vary with\nthe selection of the crystal.\nThe value of R1 varies with the actual\nPCB board."
-		(exclude_from_sim yes)
-		(at 149.86 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "8cdf7ff5-cd9b-48ea-874f-84241943a950")
-	)
 	(text "USS RF Receptacle Connector, Generation I, 60 VAC, DC ~ 6 G, 50 ± 5 Ω, -40 ~ +90 °C,IPEX_3P\n2.0 nH, ±0.1 nH, 450 mA\n40 MHz, ± 7 ppm, 15 pF, 100 uW,XTAL3225\nESP32-C3, Wi-Fi + BT + MCU,QFN32_0P5_5_B,Wi-Fi + BT + MCU\n2.7 ~ 3.6 V, 32 Mbit, Standard&Dual&Quad SPI Flash,SOP8_1P27_6P6\nShield Box Size: 12.75 mm * 15.7 mm * 2.4 mm, T = 0.2 mm \nESP32-C3-WROOM-02U V1.2, 4L, 18 mm * 14.3 mm * 0.8 mm,  Halogen-free,\nMatte black for Solder mask and white for silkscreen, immersion gold and 50 Ω impedance control."
 		(exclude_from_sim yes)
 		(at 15.24 35.56 0)
@@ -3047,6 +3004,18 @@
 		)
 		(uuid "c999d7f7-5a87-4c9f-9007-52f75bb2e47e")
 	)
+	(text "The values of C1 and C4 vary with\nthe selection of the crystal.\nThe value of R4 varies with the actual\nPCB board."
+		(exclude_from_sim yes)
+		(at 149.86 99.06 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+			)
+			(justify left)
+		)
+		(uuid "fd0aa6c4-a25c-4878-8478-46891d80b07d")
+	)
 	(junction
 		(at 53.34 83.82)
 		(diameter 0)
@@ -3064,6 +3033,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53d24dd5-3244-4fb1-8398-420131aa6866")
+	)
+	(junction
+		(at 172.72 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54619247-4452-4d7c-b9a5-1f4c1f3a5ca8")
+	)
+	(junction
+		(at 182.88 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a20385c-99b8-43e7-af4c-d7ebaf2aae7c")
 	)
 	(junction
 		(at 165.1 167.64)
@@ -3084,22 +3065,34 @@
 		(uuid "77ef52e1-46fa-4267-82ea-898d0a7467d4")
 	)
 	(junction
+		(at 198.12 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d8a92f0-08ca-4fb8-ab0c-b1ddbbfd7fde")
+	)
+	(junction
 		(at 165.1 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "975c11b9-faf1-4806-b34f-606291d68c0d")
 	)
 	(junction
-		(at 180.34 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a47cc430-b0d4-401b-89b6-fbbe09808926")
-	)
-	(junction
 		(at 248.92 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a70ae9e8-bb13-43b8-8fc6-2c60e65d2c4c")
+	)
+	(junction
+		(at 198.12 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7494b2b-bd0e-40d7-aae3-c613aab7a30b")
+	)
+	(junction
+		(at 185.42 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c6badd-f60a-4904-bd79-decf29cbe998")
 	)
 	(junction
 		(at 27.94 119.38)
@@ -3124,12 +3117,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d832860a-c2ff-4f31-a97d-d9ac1ee92374")
-	)
-	(junction
-		(at 165.1 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfc5c4bc-9793-427d-b563-cbe032b80e9b")
 	)
 	(junction
 		(at 236.22 93.98)
@@ -3158,6 +3145,16 @@
 			(type default)
 		)
 		(uuid "04788272-1447-46c4-b996-c806a23c1d1b")
+	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 198.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047d05d7-ebd9-4ca2-9227-c2831a50d1b8")
 	)
 	(wire
 		(pts
@@ -3211,6 +3208,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 86.36) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc41977-87f0-4a29-b37b-a3e69ffeed1e")
+	)
+	(wire
+		(pts
 			(xy 55.88 149.86) (xy 73.66 149.86)
 		)
 		(stroke
@@ -3261,6 +3268,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc98b28-d2ac-4ada-ad6e-5ab1411231a0")
+	)
+	(wire
+		(pts
 			(xy 276.86 134.62) (xy 264.16 134.62)
 		)
 		(stroke
@@ -3278,6 +3295,16 @@
 			(type default)
 		)
 		(uuid "231bc148-580f-44b4-8053-bc7232c2051f")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e439e16-37b4-4e60-ab58-a3c59bf6ad14")
 	)
 	(wire
 		(pts
@@ -3431,16 +3458,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c18feb8-4c8d-4001-b454-6d5d808e8ca0")
-	)
-	(wire
-		(pts
 			(xy 106.68 124.46) (xy 106.68 104.14)
 		)
 		(stroke
@@ -3478,16 +3495,6 @@
 			(type default)
 		)
 		(uuid "563a46c7-a28b-48ff-b6d0-c07a20a90203")
-	)
-	(wire
-		(pts
-			(xy 165.1 93.98) (xy 165.1 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5905b83f-3a5d-4517-a547-8e80bcc13ef7")
 	)
 	(wire
 		(pts
@@ -3538,6 +3545,16 @@
 			(type default)
 		)
 		(uuid "5d865e01-28f6-414e-9a21-b8d4bff0f665")
+	)
+	(wire
+		(pts
+			(xy 198.12 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689d7c4c-e388-408c-91bd-813879f90805")
 	)
 	(wire
 		(pts
@@ -3601,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 76.2) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cc27a7-5b9e-4828-b41b-314bc01de354")
+	)
+	(wire
+		(pts
 			(xy 129.54 165.1) (xy 142.24 165.1)
 		)
 		(stroke
@@ -3608,16 +3635,6 @@
 			(type default)
 		)
 		(uuid "77e77821-49da-41d9-a427-fc74ddd3a548")
-	)
-	(wire
-		(pts
-			(xy 165.1 86.36) (xy 175.26 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "780ae544-3841-4897-b59c-35b838d7a3cc")
 	)
 	(wire
 		(pts
@@ -3668,16 +3685,6 @@
 			(type default)
 		)
 		(uuid "811896a1-08c3-46ef-a122-c3bbd3ee0ed3")
-	)
-	(wire
-		(pts
-			(xy 180.34 96.52) (xy 198.12 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b0cf93-8653-4264-b6b4-924e06551407")
 	)
 	(wire
 		(pts
@@ -3891,6 +3898,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 85.09) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b448cf-7ab7-4eaa-b301-d136d1c1a5dc")
+	)
+	(wire
+		(pts
 			(xy 17.78 167.64) (xy 73.66 167.64)
 		)
 		(stroke
@@ -3898,26 +3915,6 @@
 			(type default)
 		)
 		(uuid "b8e57747-b5c3-4420-bcb8-f66e254f86e8")
-	)
-	(wire
-		(pts
-			(xy 198.12 96.52) (xy 198.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdc5ec28-bfc8-4e19-bfd9-c4f34d76a688")
-	)
-	(wire
-		(pts
-			(xy 180.34 96.52) (xy 180.34 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be33dd3b-7412-4a60-ab1a-41a1c5c16dd8")
 	)
 	(wire
 		(pts
@@ -3938,16 +3935,6 @@
 			(type default)
 		)
 		(uuid "c0aed93b-61dc-4f1b-80dd-548fe72c5244")
-	)
-	(wire
-		(pts
-			(xy 144.78 86.36) (xy 154.94 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e40709-d5e9-4f42-8e29-3a622980a8ec")
 	)
 	(wire
 		(pts
@@ -3988,6 +3975,16 @@
 			(type default)
 		)
 		(uuid "d144271c-19a4-4974-b063-1605003b417c")
+	)
+	(wire
+		(pts
+			(xy 185.42 85.09) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b2d4a3-3a5b-4908-a510-ed2b43ebc31a")
 	)
 	(wire
 		(pts
@@ -4071,6 +4068,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 86.36) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de72ffee-a76b-470a-bc3c-d82fdc2e771e")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded1c685-7614-4448-9ede-78f52c95aace")
+	)
+	(wire
+		(pts
 			(xy 228.6 40.64) (xy 228.6 43.18)
 		)
 		(stroke
@@ -4081,16 +4098,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 198.12 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e446239e-9c06-4553-a752-61004822b145")
-	)
-	(wire
-		(pts
 			(xy 78.74 109.22) (xy 99.06 109.22)
 		)
 		(stroke
@@ -4098,16 +4105,6 @@
 			(type default)
 		)
 		(uuid "e520ec3f-659c-4bea-96e2-ee4077fda07c")
-	)
-	(wire
-		(pts
-			(xy 165.1 96.52) (xy 180.34 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e842fcc6-ba1e-4110-96e8-71740b628d67")
 	)
 	(wire
 		(pts
@@ -4151,6 +4148,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 76.2) (xy 198.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2410126-5ff9-4823-9982-6b0c8d9fd9b1")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 198.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2888549-a168-4926-a609-bbd6f25dd939")
+	)
+	(wire
+		(pts
 			(xy 228.6 53.34) (xy 238.76 53.34)
 		)
 		(stroke
@@ -4178,6 +4195,16 @@
 			(type default)
 		)
 		(uuid "fa3c535f-9d00-49e0-99ed-3fb917d2d8cf")
+	)
+	(label "XTAL_N"
+		(at 193.04 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04e0327c-e4e2-4264-8ff7-038c6dc3445d")
 	)
 	(label "GPIO1"
 		(at 58.42 142.24 0)
@@ -4218,16 +4245,6 @@
 			(justify left bottom)
 		)
 		(uuid "1a6e189b-65d4-4a74-9aa3-e9fa0fd59c31")
-	)
-	(label "XTAL_N"
-		(at 190.5 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b42f946-12e6-4547-99e8-ab19212d0792")
 	)
 	(label "LNA_IN"
 		(at 58.42 129.54 0)
@@ -4350,16 +4367,6 @@
 		(uuid "4473e0db-0204-4b23-877d-23b4238c08db")
 	)
 	(label "XTAL_P"
-		(at 147.32 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ae53d4a-85cb-4fca-99b6-150c1c5a5981")
-	)
-	(label "XTAL_P"
 		(at 58.42 149.86 0)
 		(effects
 			(font
@@ -4448,6 +4455,16 @@
 			(justify left bottom)
 		)
 		(uuid "8ba59fe9-1891-476c-89c5-751487fa2b30")
+	)
+	(label "XTAL_P"
+		(at 154.94 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "905ddfa5-da50-4cb4-8326-7e747f742ec6")
 	)
 	(label "CHIP_PU"
 		(at 195.58 114.3 0)
@@ -4700,6 +4717,77 @@
 		(uuid "f40afdd0-6dac-438b-8314-73c26e781ce4")
 	)
 	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(at 198.12 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00fa010d-a6ec-4eb0-a77a-5f3514940b5b")
+		(property "Reference" "C1"
+			(at 201.93 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TBD"
+			(at 201.93 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+			(at 197.1548 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb389243-0b3d-4d80-8239-ac05a95f4866")
+		)
+		(pin "2"
+			(uuid "7388dfed-91fe-409f-a910-2c91f8576cde")
+		)
+		(instances
+			(project "ESP32-C3-WROOM-02U_Reference_Design"
+				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD9B5.0ST5G")
 		(at 228.6 100.33 90)
 		(unit 1)
@@ -4764,142 +4852,6 @@
 			(project "ESP32-C3-WROOM-02U_Reference_Design"
 				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
-		(at 165.1 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "047d126d-5d48-4849-a05b-35537065076f")
-		(property "Reference" "C1"
-			(at 168.91 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TBD"
-			(at 168.91 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 166.0652 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c29d829f-7ac7-4e7c-ab4e-fd9d47a18dc2")
-		)
-		(pin "2"
-			(uuid "686102e5-04be-4eea-bace-799fd522a6f3")
-		)
-		(instances
-			(project ""
-				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04cb8ad4-a962-413d-a1af-4fb7132d69a9")
-		(property "Reference" "#PWR06"
-			(at 180.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38e86d6d-6a10-4dc1-a7da-7961327052f2")
-		)
-		(instances
-			(project "ESP32-C3-MINI-1U_Reference_Design"
-				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5300,88 +5252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 179.07 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e41b6b1-314a-4a13-a5db-5d39cd7b61e9")
-		(property "Reference" "Y1"
-			(at 190.5 77.3998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND24"
-			(at 190.5 79.9398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MS" "40MHz(±10ppm)"
-			(at 190.5 82.4798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "d0c40f4b-5fc8-4517-a7d6-913d73bd6cf0")
-		)
-		(pin "1"
-			(uuid "58e1f9fc-4dd3-48e3-bbae-32c1d3ed8759")
-		)
-		(pin "3"
-			(uuid "ee3c9d02-434d-4e90-9dda-89d7613b5ceb")
-		)
-		(pin "2"
-			(uuid "32259408-8c05-4ab1-a362-c2b213d5f6d3")
-		)
-		(instances
-			(project ""
-				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 109.22 83.82 0)
 		(unit 1)
@@ -5585,6 +5455,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(at 172.72 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4706e01d-6396-4b54-845f-325f66e8cf60")
+		(property "Reference" "C2"
+			(at 168.91 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TBD"
+			(at 168.91 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+			(at 173.6852 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0188753-337a-492e-90a1-ee8902e45650")
+		)
+		(pin "2"
+			(uuid "41c8d3fa-27e3-4642-8e8a-d8d0857144a5")
+		)
+		(instances
+			(project "ESP32-C3-WROOM-02U_Reference_Design"
+				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 53.34 83.82 0)
 		(unit 1)
@@ -5711,6 +5651,80 @@
 			(project "ESP32-C3-MINI-1U_Reference_Design"
 				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Crystal_AKL:SMD3225-4")
+		(at 184.15 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b959bd8-9491-4935-a3b3-5bb4b5b24b3f")
+		(property "Reference" "X1"
+			(at 184.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40MHz(±10ppm)"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Quartz crystal, 4 terminals, 3.2mm x 2.5mm, Alternate KiCad Library"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a703ef-7648-490c-8f63-abff23f2c709")
+		)
+		(pin "2"
+			(uuid "df4105c7-b280-496d-aee6-ea111e83ea0b")
+		)
+		(pin "3"
+			(uuid "f25db6e7-853d-4d18-8cd8-21da421b5487")
+		)
+		(pin "4"
+			(uuid "28fd0a3a-9d2a-41fe-8214-88b41d5ba950")
+		)
+		(instances
+			(project "ESP32-C3-WROOM-02U_Reference_Design"
+				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -6560,6 +6574,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Resistor_AKL:R_1206")
+		(at 166.37 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f2a1a1c-e963-4554-a109-099be55ba45e")
+		(property "Reference" "R1"
+			(at 166.37 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 166.37 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2dc1e644-391b-420f-a410-8a2a85b0638c")
+		)
+		(pin "1"
+			(uuid "e7d76acb-f1b7-4a33-83df-167e9e7cb065")
+		)
+		(instances
+			(project "ESP32-C3-WROOM-02U_Reference_Design"
+				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:L")
 		(at 66.04 109.22 90)
 		(unit 1)
@@ -6799,77 +6881,6 @@
 			(project "ESP32-C3-MINI-1U_Reference_Design"
 				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
-		(at 198.12 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5f245c1-41cd-488b-a947-259331047e13")
-		(property "Reference" "C2"
-			(at 201.93 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TBD"
-			(at 201.93 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 197.1548 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 198.12 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "feb1ab84-57fb-4822-926d-a58f34b71f05")
-		)
-		(pin "2"
-			(uuid "5b583ccb-b97d-47e9-aefd-45c4e221267a")
-		)
-		(instances
-			(project "ESP32-C3-MINI-1U_Reference_Design"
-				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7574,33 +7585,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
-		(at 158.75 86.36 90)
+		(lib_id "power:GND")
+		(at 198.12 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c904e9ad-4acc-4d68-8e4d-5c6508c9f48a")
-		(property "Reference" "R1"
-			(at 158.75 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0(1%)"
-			(at 158.75 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
-			(at 170.18 86.36 0)
+		(uuid "d0168a74-9f26-4f2a-b7ab-2e06c5bd2252")
+		(property "Reference" "#PWR05"
+			(at 198.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,8 +7603,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 158.75 86.36 0)
+		(property "Value" "GND"
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,8 +7620,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 158.75 86.36 0)
+		(property "Datasheet" ""
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,15 +7639,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a7bc70d-5cfd-4a75-be35-1d2dd6384563")
-		)
-		(pin "2"
-			(uuid "51bc7cbc-38b4-4ea5-b003-10e4c492bcca")
+			(uuid "e9201fdb-50ca-4b58-b000-1e254ffdbf3e")
 		)
 		(instances
-			(project ""
+			(project "ESP32-C3-WROOM-02U_Reference_Design"
 				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
-					(reference "R1")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7772,72 +7781,6 @@
 			(project "ESP32-C3-WROOM-02U_Reference_Design"
 				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4ca629d-5cbe-47d3-a209-6ca955ba4c6f")
-		(property "Reference" "#PWR05"
-			(at 180.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fad475d-7fa7-4bc4-8cf9-46a5b2bdc320")
-		)
-		(instances
-			(project "ESP32-C3-MINI-1U_Reference_Design"
-				(path "/c7d137bb-cad7-469a-9847-0e87af28603c"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)

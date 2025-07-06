@@ -4313,6 +4313,12 @@
 		(uuid "4afd9c17-fc18-425f-b518-ebefdf49e14f")
 	)
 	(junction
+		(at 353.06 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53b574c8-12ba-47a1-b14b-744a6c2d69e0")
+	)
+	(junction
 		(at 127 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4431,6 +4437,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f24c1833-6ddb-43d2-ba27-76d4ce94dcd1")
+	)
+	(junction
+		(at 355.6 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbf59531-a0a2-49b2-a692-b3d375758dfa")
 	)
 	(no_connect
 		(at 264.16 172.72)
@@ -4634,6 +4646,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 153.67) (xy 353.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7a6a4d-dc4a-4d49-bc63-31a80fe73774")
+	)
+	(wire
+		(pts
 			(xy 220.98 167.64) (xy 233.68 167.64)
 		)
 		(stroke
@@ -4721,6 +4743,16 @@
 			(type default)
 		)
 		(uuid "2c56730a-3bdf-4202-b631-1226f0ce3175")
+	)
+	(wire
+		(pts
+			(xy 355.6 153.67) (xy 355.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df96687-3baf-4938-a336-24ab428f0a96")
 	)
 	(wire
 		(pts
@@ -5364,6 +5396,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 154.94) (xy 365.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d3f13f-1169-4b64-988e-d383c0a6c868")
+	)
+	(wire
+		(pts
 			(xy 154.94 193.04) (xy 167.64 193.04)
 		)
 		(stroke
@@ -5564,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 154.94) (xy 365.76 154.94)
+			(xy 340.36 154.94) (xy 353.06 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5691,6 +5733,16 @@
 			(type default)
 		)
 		(uuid "cde5511a-f1f5-4fac-9406-e5e98cadc1ed")
+	)
+	(wire
+		(pts
+			(xy 353.06 154.94) (xy 355.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa374bd-5358-4982-b90f-d4032d5bd5fc")
 	)
 	(wire
 		(pts
@@ -8244,7 +8296,7 @@
 		(fields_autoplaced yes)
 		(uuid "48bc9d96-96eb-4945-95fb-dcf42313a3f6")
 		(property "Reference" "R3"
-			(at 173.99 245.11 90)
+			(at 173.99 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8304,7 @@
 			)
 		)
 		(property "Value" "10K(NC)"
-			(at 173.99 247.65 90)
+			(at 173.99 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,11 +8858,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 342.9 185.42 0)
+			(at 345.44 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8995,9 +9048,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "78fae58e-0b0c-44ff-88a1-25838c3747df")
 		(property "Reference" "R10"
-			(at 66.04 240.03 90)
+			(at 54.61 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +9059,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 66.04 242.57 90)
+			(at 54.61 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,11 +9942,12 @@
 			)
 		)
 		(property "Value" "VDD_SPI"
-			(at 269.24 149.86 0)
+			(at 271.78 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10378,11 +10433,12 @@
 			)
 		)
 		(property "Value" "VDD_SPI"
-			(at 220.98 138.43 0)
+			(at 223.52 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10505,7 +10561,7 @@
 		(fields_autoplaced yes)
 		(uuid "d59bed69-987d-44ce-8d0f-ed7cd4c84ec2")
 		(property "Reference" "U4"
-			(at 339.9633 20.32 0)
+			(at 339.9633 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +10570,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-2"
-			(at 339.9633 22.86 0)
+			(at 339.9633 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +10815,7 @@
 		(fields_autoplaced yes)
 		(uuid "d93ff50f-2821-4c12-bd36-30b3153f0452")
 		(property "Reference" "R11"
-			(at 67.31 247.65 90)
+			(at 67.31 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +10823,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 67.31 250.19 90)
+			(at 67.31 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,21 +11264,21 @@
 		(fields_autoplaced yes)
 		(uuid "edd537d0-bad2-4a38-a446-168357588c19")
 		(property "Reference" "C7"
-			(at 146.05 162.5599 0)
+			(at 153.67 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10nF"
-			(at 146.05 165.0999 0)
+			(at 153.67 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
@@ -11278,7 +11334,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4c94d30-7127-426c-bbeb-4b5198a1c51d")
 		(property "Reference" "R14"
-			(at 59.69 250.19 90)
+			(at 59.69 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +11342,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 59.69 252.73 90)
+			(at 59.69 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)

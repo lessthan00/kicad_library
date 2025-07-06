@@ -4018,6 +4018,12 @@
 		(uuid "181d2410-dcb9-4f0f-8f3d-99b6f70c21f0")
 	)
 	(junction
+		(at 152.4 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "188156cf-7605-4559-ad54-22e630b63d74")
+	)
+	(junction
 		(at 66.04 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4160,6 +4166,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8049096-86af-4783-8eb9-716fe5e12961")
+	)
+	(junction
+		(at 149.86 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ef4fa2-343f-444a-bd90-1a27de3a18a9")
 	)
 	(junction
 		(at 38.1 246.38)
@@ -4609,6 +4621,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 255.27) (xy 152.4 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddfcd5b-642f-4e89-a4da-a70a9127956f")
+	)
+	(wire
+		(pts
 			(xy 53.34 109.22) (xy 66.04 109.22)
 		)
 		(stroke
@@ -5039,6 +5061,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 255.27) (xy 149.86 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803fa4ef-e35c-4841-9f03-4d9edbc0d149")
+	)
+	(wire
+		(pts
 			(xy 60.96 246.38) (xy 76.2 246.38)
 		)
 		(stroke
@@ -5209,6 +5241,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 256.54) (xy 152.4 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913ada95-7589-464a-a8a9-4e29fdce712c")
+	)
+	(wire
+		(pts
 			(xy 121.92 142.24) (xy 134.62 142.24)
 		)
 		(stroke
@@ -5256,6 +5298,16 @@
 			(type default)
 		)
 		(uuid "9a232c86-0546-4e62-9716-587476d4ba55")
+	)
+	(wire
+		(pts
+			(xy 152.4 256.54) (xy 162.56 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4005f5-bcfb-4bff-a4e5-48a4a2fa5604")
 	)
 	(wire
 		(pts
@@ -5369,7 +5421,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 256.54) (xy 162.56 256.54)
+			(xy 137.16 256.54) (xy 149.86 256.54)
 		)
 		(stroke
 			(width 0)
@@ -8418,12 +8470,11 @@
 			)
 		)
 		(property "Value" "VDD33"
-			(at 342.9 143.5099 0)
+			(at 340.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8864,7 +8915,7 @@
 		(fields_autoplaced yes)
 		(uuid "8520c4f1-4907-499e-9d0f-f4b1aa299a29")
 		(property "Reference" "R6"
-			(at 146.05 207.01 90)
+			(at 146.05 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,7 +8923,7 @@
 			)
 		)
 		(property "Value" "10K(NC)"
-			(at 146.05 209.55 90)
+			(at 146.05 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
