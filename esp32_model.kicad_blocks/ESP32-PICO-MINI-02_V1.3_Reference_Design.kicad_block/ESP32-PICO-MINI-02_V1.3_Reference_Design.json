@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "ESP32-PICO-MINI-02_V1.3_Reference_Design.kicad_sch",
+        "reliability": "90%"
+    }
+}

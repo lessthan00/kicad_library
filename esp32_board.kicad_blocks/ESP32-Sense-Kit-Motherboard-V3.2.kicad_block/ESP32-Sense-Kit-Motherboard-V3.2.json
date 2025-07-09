@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "ESP32-Sense-Kit-Motherboard-V3.2.kicad_sch",
+        "reliability": "90%"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "ESP-EYE_V2.1_Reference_Design_2.kicad_sch",
+        "reliability": "90%"
+    }
+}

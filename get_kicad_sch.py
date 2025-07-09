@@ -33,7 +33,7 @@ def process_kicad_blocks(directory):
             "keywords": "project",
             "fields": {
                 "filename": rf"{filename}",
-                "reliability": "20%"
+                "reliability": "90%"
             }
         }
         
@@ -42,5 +42,5 @@ def process_kicad_blocks(directory):
             json.dump(json_content, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    target_dir = r"d:\Users\Desktop\my_sch"
+    target_dir = r"D:\Users\admin\Desktop\kicad_library\esp32_board.kicad_blocks"
     process_kicad_blocks(target_dir)

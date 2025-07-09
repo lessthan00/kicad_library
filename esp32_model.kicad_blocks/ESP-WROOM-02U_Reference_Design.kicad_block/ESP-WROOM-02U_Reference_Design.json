@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "ESP-WROOM-02U_Reference_Design.kicad_sch",
+        "reliability": "90%"
+    }
+}

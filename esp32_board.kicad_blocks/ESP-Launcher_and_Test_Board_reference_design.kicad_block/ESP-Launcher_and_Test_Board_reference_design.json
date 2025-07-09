@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "ESP-Launcher_and_Test_Board_reference_design.kicad_sch",
+        "reliability": "90%"
+    }
+}

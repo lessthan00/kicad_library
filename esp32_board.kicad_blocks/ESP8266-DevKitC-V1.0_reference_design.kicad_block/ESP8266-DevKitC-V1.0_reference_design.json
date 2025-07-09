@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "ESP8266-DevKitC-V1.0_reference_design.kicad_sch",
+        "reliability": "90%"
+    }
+}

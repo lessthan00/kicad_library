@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "esp32-devkitc-v4_reference_design_0.kicad_sch",
+        "reliability": "90%"
+    }
+}

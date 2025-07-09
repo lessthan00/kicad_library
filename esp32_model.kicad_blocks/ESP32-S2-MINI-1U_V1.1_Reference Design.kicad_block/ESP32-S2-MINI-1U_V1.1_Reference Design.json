@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "ESP32-S2-MINI-1U_V1.1_Reference Design.kicad_sch",
+        "reliability": "90%"
+    }
+}

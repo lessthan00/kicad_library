@@ -1,0 +1,8 @@
+{
+    "description": "描述",
+    "keywords": "project",
+    "fields": {
+        "filename": "esp32-pico-kit_v4.1_20180314_cn.kicad_sch",
+        "reliability": "90%"
+    }
+}
