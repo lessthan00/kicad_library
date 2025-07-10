@@ -495,7 +495,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "digikey-kicad-library"
+    ]
   },
   "meta": {
     "filename": "jlc_mode.kicad_pro",
