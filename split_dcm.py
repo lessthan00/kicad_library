@@ -1,90 +1,68 @@
 import os
-import re
 
-def read_file_with_encoding(file_path):
-    encodings = ['latin1', 'utf-8', 'utf-8-sig', 'cp1252']
-    for enc in encodings:
-        try:
-            with open(file_path, 'r', encoding=enc) as f:
-                return f.readlines()
-        except UnicodeDecodeError:
-            continue
-    raise UnicodeDecodeError(f"无法用任何编码打开文件: {file_path}")
+def read_lines(filename):
+    """读取文件并去除每行末尾的换行符"""
+    with open(filename, 'r', encoding='latin-1') as f:
+        return [line.rstrip('\n') for line in f]
 
-def split_dcm_file(file_path, output_dir):
-    print(f"🔧 开始处理: {file_path}")
-    try:
-        lines = read_file_with_encoding(file_path)
-    except Exception as e:
-        print(f"❌ 错误：无法读取文件 {file_path} - {e}")
-        return
+def write_lines(filename, lines):
+    """写入文件并在每行后添加换行符"""
+    with open(filename, 'w', encoding='latin-1') as f:
+        f.write('\n'.join(lines) + '\n')
 
-    # 提取 header（第一个 $CMP 之前的所有行）
-    header_end_index = None
-    for i, line in enumerate(lines):
-        if line.strip().startswith('$CMP'):
-            header_end_index = i
-            break
-    header = [line.rstrip('\n') for line in lines[:header_end_index]]
+def split_dcm_file(input_path, output_dir):
+    lines = read_lines(input_path)
 
-    # 提取所有 component
     components = []
-    current_component = []
-    inside = False
+    current_component = None
+
     for line in lines:
-        stripped = line.strip()
-        if stripped.startswith('$CMP'):
-            inside = True
-            current_component = [line.rstrip('\n')]
-        elif stripped.startswith('$ENDCMP'):
-            current_component.append(line.rstrip('\n'))
-            components.append(current_component)
-            inside = False
-        elif inside:
-            current_component.append(line.rstrip('\n'))
+        if line.startswith('$CMP '):
+            if current_component is not None:
+                components.append(current_component)
+            current_component = [line]
+        elif line == '$ENDCMP':
+            if current_component is not None:
+                current_component.append(line)
+                components.append(current_component)
+                current_component = None
+        elif current_component is not None:
+            current_component.append(line)
 
-    # 提取 footer（最后一个 $ENDCMP 之后的内容）
-    last_footer_start = len(lines)
-    for i in reversed(range(len(lines))):
-        if lines[i].strip().startswith('$ENDCMP'):
-            last_footer_start = i + 1
-            break
-    footer = [line.rstrip('\n') for line in lines[last_footer_start:]]
-
-    print(f"✅ 找到 {len(components)} 个元件")
+    if current_component is not None:
+        components.append(current_component)
 
     for comp in components:
-        first_line = comp[0]
-        match = re.match(r'\$CMP\s+(\S+)', first_line)
-        if not match:
-            print("⚠️ 跳过无效元件（找不到名称）")
-            continue
-        name = match.group(1)
+        name_line = comp[0]
+        component_name = name_line.split(maxsplit=1)[1].strip()
 
-        output_file = os.path.join(output_dir, f"{name}.dcm")
-        if os.path.exists(output_file):
-            print(f"🔁 已存在，跳过: {output_file}")
-            continue
+        full_content = [
+            "EESchema-DOCLIB  Version 2.0",
+            "#",
+        ]
+        full_content.extend(comp)
+        full_content.extend([
+            "#",
+            "#End Doc Library"
+        ])
 
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(header) + '\n')
-            f.write('\n'.join(comp) + '\n')
-            f.write('\n'.join(footer) + '\n')
-
-        print(f"💾 已保存: {output_file}")
+        output_path = os.path.join(output_dir, f"{component_name}.dcm")
+        write_lines(output_path, full_content)
 
 def main():
-    input_dir = 'lib'
-    output_dir = 'get'
-    os.makedirs(output_dir, exist_ok=True)
+    script_dir = os.path.dirname(__file__)
+    input_dir = os.path.join(script_dir, 'input')
+    output_dir = os.path.join(script_dir, 'output')
+
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
     for filename in os.listdir(input_dir):
-        if filename.lower().endswith('.dcm'):
-            filepath = os.path.join(input_dir, filename)
-            try:
-                split_dcm_file(filepath, output_dir)
-            except Exception as e:
-                print(f"⚠️ 处理失败: {filename} - {e}")
+        if filename.endswith('.dcm'):
+            print(f"Processing: {filename}")
+            split_dcm_file(os.path.join(input_dir, filename), output_dir)
+
+    print("✅ .dcm 文件拆分完成！")
 
 if __name__ == '__main__':
     main()
