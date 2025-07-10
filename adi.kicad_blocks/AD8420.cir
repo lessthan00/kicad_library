@@ -1,0 +1,167 @@
+* AD8420 SPICE Macro-model
+* Description: Wide Supply Range, Rail-to-rail output instrumentation amplifier
+* Developed by: Fotjana Bida
+*
+* Revision History:
+* 1.0 03/20012 - FB (initial release)
+* 2.0 08/2012  - FB (1. needed to remove 2 clamps that were affecting the performance of part at single 5V supply.
+*                    (2. R28 was helping clamp the Vin_diff=1.8V, but current fro D8 was flowing in it and creating large offset when Vps=+5V/0V. Reduced value of R28 to fix prob)
+*
+* Copyright 2012 by Analog Devices, Inc.
+*
+* Refer to http://www.analog.com/Analog_Root/static/techSupport/designTools/spiceModels/license/spice_general.html
+* for License Statement. Use of this model indicates your acceptance
+* of the terms and provisions in the License Statement.
+*
+*
+* BEGIN Notes:
+*
+*  Not Modeled:
+*   Temperature effects
+*
+*
+* Node assignments
+*                 No connect
+*                 |   non-inverting input
+*                 |   |    inverting input
+*                 |   |    |    negative supply
+*                 |   |    |    |    positive supply
+*                 |   |    |    |    |    REF
+*                 |   |    |    |    |    |    FB
+*                 |   |    |    |    |    |    |    output
+*                 |   |    |    |    |    |    |     |
+*                 |   |    |    |    |    |    |     |
+*                 |   |    |    |    |    |    |     |
+.SUBCKT AD8420    NC  IN+  IN-  -Vs  +Vs  REF  FB  VOUT
+VOS N017 IN+ 124.824e-6
+I23 IN- 0 -20E-9
+I24 FB 0 -20E-9
+G1 0 IN+ N025 N029 -.148e-9
+R13 IN+ N025 10e9
+R14 N025 IN- 10e9
+R15 +Vs N029 10e9
+R16 N029 -Vs 10e9
+G2 0 IN- N025 N029 -.148e-9
+E10 VPOSx 0 +Vs 0 1
+I3 +Vs -Vs 77E-6
+G3 +Vs -Vs +Vs -Vs 0.766e-6
+E11 VNEGx 0 -Vs 0 1
+H3 N004 IN- V24 53.2
+V24 N001 0 0
+R19 N001 0 .0166
+******* Using If-statement to set gm value *************************************
+G4 0 Out_inp value={if(abs(V(V-,V+))<.01,V(V-,V+)*28e-6,V(V-,V+)*50e-6)}
+G5 0 Out_inp value={if(abs(V(FB,N032))<.01,V(FB,N032)*28e-6,V(FB,N032)*50e-6)}
+********** Using Poly to set gm value ****************************************
+*G4 0 Out_inp POLY(1) (V-,V+) 5E-12 3E-05 -8E-10 3E-05 8E-10 -5E-06
+*G5 0 Out_inp POLY(1) (FB,N032) 5E-12 3E-05 -8E-10 3E-05 8E-10 -5E-06
+********* Using table to set gm-value. Doesnt work in Multisim********************
+*G4 0 Out_inp V- V+ table=(-2,-99.78e-6,-0.01,-0.28e-6,0.01,0.28e-6,2,99.78e-6)
+*G5 0 Out_inp FB N032 table=(-2,-99.78e-6,-0.01,-0.28e-6,0.01,0.28e-6,2,99.78e-6)
+R10 Out_inp 0 10e9
+R11 Out_inp 0 10E9
+C1 sub_out N024 21e-12
+I1 IN+ 0 -19E-9
+I2 REF 0 -19E-9
+VOS1 N032 REF 125e-6
+G6 0 sub_out 0 Out_inp 1
+R1 sub_out 0 10E9
+G7 0 N020 N019 N020 1
+R4 N020 0 10E9
+G8 0 V- N005 V- 1
+R5 V- 0 10E9
+D2 N010 N013 D
+D4 N015 N009 D
+D1 N013 V+ D
+D3 V+ N015 D
+D7 V+ N014 D
+D8 N023 V+ D
+V3 VPOSx N014 2.9
+V4 N023 VNEGx 0.54
+D9 V- N002 D
+D10 N007 V- D
+V5 VPOSx N002 3.05
+V6 N007 VNEGx 0.72
+*** Clamps are not needed and they were affecting the performance of the part @ Vps=+5V
+*D13 Out_inp N027 D
+*D14 N031 Out_inp D
+*V9 VPOSx N027 3.05
+*V10 N031 VNEGx 0.55
+*D5 Out_inp N003 D
+*D6 N008 Out_inp D
+*V7 VPOSx N003 3.05
+*V8 N008 VNEGx 0.7
+****************** clamp below is needed to work in DC *****
+D11 sub_out N011 D
+D12 N021 sub_out D
+V11 N021 VNEGx 0.0
+V12 VPOSx N011 0.8
+************
+D15 V- N010 D
+D17 N009 V- D
+E1 100 0 N030 0 1
+R6 200 100 4.5
+R7 0 200 1Meg
+C3 200 0 0.11e-6
+R9 N030 0 1e6
+C4 +Vs N030 100e-6
+EPSRR+ N018 N017 100 200 1
+E2 300 0 N028 0 1
+R12 400 300 4.5
+R17 0 400 1Meg
+C5 400 0 0.0035e-6
+R18 N028 0 1e6
+C6 -Vs N028 100e-6
+EPSRR- N005 N004 300 400 1
+D16 N016 N012 D
+D18 N022 N016 D
+V1 N022 N026 0.8
+V13 N006 N012 0.88
+ECMRR N019 N018 cmrr_out 0 1
+H1 VPOSx N006 V_current 1
+H2 N026 VNEGx V_current 1
+V_current VOUT N016 0
+***** Need to reduce R28 since current from D8 clamp flows in it and creates an offset. R28=1k before.
+R28 V+ N020 50
+G11 IN+ IN- IN+ IN- 6e-9
+G10 0 N016 sub_out 0 0.0023
+R21 N016 0 500
+C7 N016 0 4e-10
+R20 N024 Out_inp 7e3
+E3 Vdiff 0 IN+ IN- 1
+R8 IN+ VCM 10e9
+R22 VCM IN- 10e9
+L1 cmrr_out N033 50e-6
+R23 N033 0 1
+G9 0 cmrr_out vout2 0 1
+B1 vi 0 V=abs(V(Vdiff))
+B2 vout2 0 V=V(VCM)*V(Gain_CM)
+B3 Gain_CM 0 V=-0.00172*pwr(V(vi),6)+0.0068*pwr(V(vi),5)-0.011*pwr(V(vi),4)+0.009*pwr(V(vi),3)-0.003785*pwr(V(vi),2)+0.00078*pwr(V(vi),1)+3.7e-6
+.model D D
+*;tran 0 4m 0 1u
+*;op
+*.ac dec 100 1 1Meg
+*;noise V(VOUT) V2 dec 200 1 1e6
+* max Input Diff_volt = 1.8Vpk
+* input clamping
+* noise
+* BW - gm*vin*C1
+* output clamping
+* Pos_PSRR: DC set R7/(R6+R7), the cap defines roll off (R7//C3)
+* Neg_PSRR: DC set R17/(R12+R17), the cap defines roll off
+* adding high freq poles (C7/R21) ~1MHz
+* Vary Ibias with VCM
+* Vary Ibias with Vdiff
+* Vary Isupply with Supply Range
+* R30 and C1 create a high freq zero (~1MHz)
+* (G10)*R = DC value (1.2dB)
+* For Vin<0.01V, gm=28u to get 250kHz BW
+* For Vin>= 0.01V, gm=50u higher BW, with High freq pole&zero
+* will give similar small signal pulse response
+* Part itself has two gm when varying Vin from very small signal (<10mV) to larger (>10mV)
+* Using Table func for gm, lets you set these 2 gm values(which is the slope of the line) for certain Vin,Vo values
+* B1: takes abs of Vdiff so we can enter both negative and positive input differential values
+* B2: Using a 6th order poly, the CM gain is set. The equation was extracted from CMRR vs. Vin_diff TPC
+* Vout = Gain_CM*Vcm
+* The gain (set by the poly eq) is dependant on the Vin_diff (like the real part)
+.ends
